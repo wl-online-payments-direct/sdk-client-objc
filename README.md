@@ -1,3 +1,7 @@
+# SDK Decommissioned
+
+**Online Payments Objective-C SDK has been decommissioned. Please use our [Swift SDK](https://github.com/wl-online-payments-direct/sdk-client-swift) instead.**
+
 # Online Payments Objective-C SDK
 
 The Online Payments Objective-C SDK helps you with accepting payments in your iOS app, supporting iOS 9.0 and up, through the Online Payments platform.
@@ -44,7 +48,7 @@ The SDK's main function is to establish a secure channel between your iOS app an
     - [5. Response from the Server API call](#5-response-from-the-server-api-call)
 
 ## Installation
----------------------------------------
+
 The Online Payments Objective-C SDK is available via the following package managers: [CocoaPods](https://cocoapods.org/) or [Carthage](https://github.com/Carthage/Carthage).
 
 ### CocoaPods
@@ -66,7 +70,7 @@ $ pod install
 You can add the Objective-C SDK with Carthage, by adding the following to your `Cartfile`:
 
 ```
-$ github "wl-online-payments-direct/sdk-client-objc"
+$ github "online-payments/sdk-client-objc"
 ```
 
 Afterwards, run the following command:
@@ -79,7 +83,7 @@ Navigate to the ```Carthage/Build``` directory, which was created in the same di
 
 ## Example app
 
-For your convenience, we also provide an example app that can be used as a basis for your own implementation. If you are fine with the look-and-feel of the example app, you do not need to make any changes at all. The example app can be found [here](https://github.com/wl-online-payments-direct/sdk-client-objc-example). Please note that the Objective-C example uses the Swift SDK, so you might need to make a few minor adjustments before the example works with the Objective-C SDK.
+For your convenience, we also provide an example app that can be used as a basis for your own implementation. If you are fine with the look-and-feel of the example app, you do not need to make any changes at all. The example app can be found [here](https://github.com/Online-Payments/sdk-client-objc-example). Please note that the Objective-C example uses the Swift SDK, so you might need to make a few minor adjustments before the example works with the Objective-C SDK.
 
 ## Getting started
 
